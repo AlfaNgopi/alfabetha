@@ -22,7 +22,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				<div class="col">
 					<div class="card-body">
 						<h5 class="card-title"><?= $item['name']; ?></h5>
-						<p class="card-text">Kelas : <?= $item['class']; ?></p>
+						<p class="card-text">Kelas : <?= $item['kelas']; ?></p>
 						<p class="card-text">Harga : <?= $item['price']; ?></p>
 						<p class="card-text">Stok : <?= $item['stock']; ?></p>
 						<p class="card-text">Deskripsi : <?= $item['description']; ?></p>
